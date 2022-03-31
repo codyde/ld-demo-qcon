@@ -53,8 +53,8 @@ resource "launchdarkly_feature_flag" "qrcode" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [
@@ -81,8 +81,8 @@ resource "launchdarkly_feature_flag" "logoversion" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [
@@ -109,8 +109,8 @@ resource "launchdarkly_feature_flag" "cardshow" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [
@@ -137,8 +137,8 @@ resource "launchdarkly_feature_flag" "upperimage" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [
@@ -165,8 +165,8 @@ resource "launchdarkly_feature_flag" "login" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [
@@ -193,8 +193,8 @@ resource "launchdarkly_feature_flag" "prodHeader" {
   }
   
   defaults {
-    on_variation = 1
-    off_variation = 0
+    on_variation = 0
+    off_variation = 1
   }
 
   tags = [

@@ -9,7 +9,7 @@ export default function Header(props) {
       <img src={ld} className="mx-auto max-h-30" alt="logo" />
       </div>
       <div className="text-base md:text-4xl pb-4 2xl:text-6xl">
-        <p>Ship and <span className="text-transparent bg-clip-text bg-gradient-to-br from-ldyellow to-lddblue">release</span> features faster!</p>
+        <p>Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-br from-ldyellow to-lddblue">QCon London</span>!</p>
       </div>      
     </div>
     </div>
